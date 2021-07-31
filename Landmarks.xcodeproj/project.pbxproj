@@ -161,6 +161,7 @@
 				B169E5C526ADB7D600C3DDC0 /* Landmarks */,
 				B169E5D126ADD6D500C3DDC0 /* Badges */,
 				B169E5C626ADB7E300C3DDC0 /* Helpers */,
+				B11EF72226B1C1DA003FFE64 /* Hikes */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,7 +181,6 @@
 			children = (
 				B11EF71E26B1C058003FFE64 /* hikeData.json */,
 				B1CC5FA026A9AC47005ECF1E /* landmarkData.json */,
-				B11EF72226B1C1DA003FFE64 /* Hikes */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
