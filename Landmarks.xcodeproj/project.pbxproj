@@ -15,6 +15,7 @@
 		B11BB44126B5A2260061C5F7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB44026B5A2260061C5F7 /* PageViewController.swift */; };
 		B11BB44326B6D65D0061C5F7 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB44226B6D65D0061C5F7 /* FeatureCard.swift */; };
 		B11BB44526B6DAC80061C5F7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB44426B6DAC80061C5F7 /* PageView.swift */; };
+		B11BB44726B70EAE0061C5F7 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BB44626B70EAE0061C5F7 /* PageControl.swift */; };
 		B11EF71F26B1C058003FFE64 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B11EF71E26B1C058003FFE64 /* hikeData.json */; };
 		B11EF72126B1C085003FFE64 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11EF72026B1C085003FFE64 /* Hike.swift */; };
 		B11EF72726B1C1DA003FFE64 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11EF72326B1C1DA003FFE64 /* GraphCapsule.swift */; };
@@ -53,6 +54,7 @@
 		B11BB44026B5A2260061C5F7 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		B11BB44226B6D65D0061C5F7 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		B11BB44426B6DAC80061C5F7 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		B11BB44626B70EAE0061C5F7 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		B11EF71E26B1C058003FFE64 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		B11EF72026B1C085003FFE64 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		B11EF72326B1C1DA003FFE64 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -110,6 +112,8 @@
 			children = (
 				B11BB44426B6DAC80061C5F7 /* PageView.swift */,
 				B11BB44026B5A2260061C5F7 /* PageViewController.swift */,
+				B11BB44226B6D65D0061C5F7 /* FeatureCard.swift */,
+				B11BB44626B70EAE0061C5F7 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -217,7 +221,6 @@
 				B11EF72B26B57617003FFE64 /* Categories */,
 				B11BB43626B591EB0061C5F7 /* Profiles */,
 				B11BB43F26B5A15D0061C5F7 /* PageView */,
-				B11BB44226B6D65D0061C5F7 /* FeatureCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				B1CC5F9F26A984F9005ECF1E /* MapView.swift in Sources */,
 				B11EF72726B1C1DA003FFE64 /* GraphCapsule.swift in Sources */,
 				B1CC5F8E26A97CE4005ECF1E /* LandmarksApp.swift in Sources */,
+				B11BB44726B70EAE0061C5F7 /* PageControl.swift in Sources */,
 				B169E5C426ADB73800C3DDC0 /* FavoriteButton.swift in Sources */,
 				B11EF73326B58038003FFE64 /* CategoryItem.swift in Sources */,
 				B11EF72926B1C1DA003FFE64 /* HikeDetail.swift in Sources */,

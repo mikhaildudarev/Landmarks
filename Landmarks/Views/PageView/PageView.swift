@@ -11,29 +11,12 @@ struct PageView<Page: View>: View {
     var pages: [Page]
     @State private var currentPage = 0
     
-    var nextPage: Int {
-        let nextIndex = currentPage + 1
-        
-        guard nextIndex < pages.count else {
-            return 0
-        }
-        
-        return nextIndex
-    }
-    
     var body: some View {
-        VStack {
-            ZStack(alignment: .bottomTrailing) {
-                PageViewController(pages: pages, currentPage: $currentPage)
-                Button(action: {
-                    currentPage = nextPage
-                }) {
-                    Image(systemName: "arrow.right.circle")
-                        .foregroundColor(.white)
-                }
-                .padding()
-            }
-            Text("Current Page: \(currentPage)")
+        ZStack(alignment: .bottomTrailing) {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            PageControl(numberOfPages: pages.count, currentPage: $currentPage)
+                .frame(width: CGFloat(pages.count * 18))
+                .padding(.trailing)
         }
     }
 }
