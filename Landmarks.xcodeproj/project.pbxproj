@@ -108,8 +108,8 @@
 		B11BB43F26B5A15D0061C5F7 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				B11BB44026B5A2260061C5F7 /* PageViewController.swift */,
 				B11BB44426B6DAC80061C5F7 /* PageView.swift */,
+				B11BB44026B5A2260061C5F7 /* PageViewController.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
